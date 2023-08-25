@@ -42,15 +42,34 @@ public:
 	enum Mode {
 		Hiragana,
 		Katakana,
+		HiraganaZhCn,
+		KatakanaZhCn,
 		Hangul1,
 		Hangul2,
 		ZhCn1,
 		ZhCn2,
+		ZhCnAltA1,
+		ZhCnAltA2,
+		ZhCnAltB1,
+		ZhCnAltB2,
+		ZhCnAltC1,
+		ZhCnAltC2,
 		ZhTw1,
 		ZhTw2,
+		ZhTwAlt1,
+		ZhTwAlt2,
 		RuCyrl,
 		Letter,
 		Symbol,
+		LetterAlt2k3,
+		SymbolAlt2k3,
+		LetterAlt2K3Fr,
+		SymbolAlt2K3Fr,
+		LetterAlt2K3Es,
+		SymbolAlt2K3Es,
+		Letter2ke,
+		Letter2k3e,
+		Symbol2ke,
 		MODE_END
 	};
 
@@ -65,10 +84,13 @@ public:
 	static const char* const DONE;
 	static const char* const SPACE;
 	static const char* const NEXT_PAGE;
+	static const char* const DONE_2KE;
+	static const char* const DONE_2K3;
 	static const char* const DONE_JP;
 	static const char* const DONE_KO;
 	static const char* const DONE_ZH_CN;
 	static const char* const DONE_ZH_TW;
+	static const char* const DONE_ZH_KANA;
 	static const char* const DONE_RU;
 
 	static const int row_max = 9;
